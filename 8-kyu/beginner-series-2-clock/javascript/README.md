@@ -139,5 +139,12 @@ Past(0, 1, 1) == 61000
 ```haxe
 past(0, 1, 1) == 61000
 ```
+```cobol
+       MOVE 0 TO Hours
+       MOVE 1 TO Minutes
+       MOVE 1 TO Seconds
+       PERFORM Past
+      * Millis = 61000
+```
 
 Input constraints: `0 <= h <= 23`, `0 <= m <= 59`, `0 <= s <= 59`
