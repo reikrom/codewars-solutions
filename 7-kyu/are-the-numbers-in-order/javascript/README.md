@@ -58,21 +58,21 @@ isAscOrder [9, 8, 7, 6, 5, 4, 3, 2, 1] -- False (NOTE: because the numbers are i
 ```
 ```ruby
 is_asc_order([1,2,4,7,19]) # returns True
-is_asc_order([1,2,3,4,5]); // returns True
+is_asc_order([1,2,3,4,5]); # returns True
 is_asc_order([1,6,10,18,2,4,20]) # returns False
 is_asc_order([9,8,7,6,5,4,3,2,1]) # returns False because the numbers are in DESCENDING order
 ```
 ```crystal
 is_asc_order([1,2,4,7,19]) # returns True
-is_asc_order([1,2,3,4,5]); // returns True
+is_asc_order([1,2,3,4,5]); # returns True
 is_asc_order([1,6,10,18,2,4,20]) # returns False
 is_asc_order([9,8,7,6,5,4,3,2,1]) # returns False because the numbers are in DESCENDING order
 ```
 ```go
-InAscOrder([]int{1, 2, 4, 7, 19}) # returns True
+InAscOrder([]int{1, 2, 4, 7, 19}) // returns True
 InAscOrder([]int{1, 2, 3, 4, 5}) // returns True
-InAscOrder([]int{1, 6, 10, 18, 2, 4, 20}) # returns False
-InAscOrder([]int{9, 8, 7, 6, 5, 4, 3, 2, 1}) # returns False because the numbers are in DESCENDING order
+InAscOrder([]int{1, 6, 10, 18, 2, 4, 20}) // returns False
+InAscOrder([]int{9, 8, 7, 6, 5, 4, 3, 2, 1}) // returns False because the numbers are in DESCENDING order
 ```
 ```nasm
 in_asc_order({1,2,4,7,19}, 5); // => 1
