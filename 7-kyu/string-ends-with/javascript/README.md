@@ -22,3 +22,7 @@ solution("abc", "d") // returns false
 solution("abc", "bc"). % match
 \+ solution("abc", "d"). % no match
 ```
+```clojure
+(solution "abc" "bc") ; returns true
+(solution "abc" "d'" ; returns false
+```

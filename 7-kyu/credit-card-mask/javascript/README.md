@@ -60,14 +60,14 @@ maskify('Nananananananananananananananana Batman!') # should return '###########
 ```
 
 ```csharp
-Kata.Maskify('4556364607935616'); // should return "############5616"
-Kata.Maskify('64607935616');      // should return "#######5616"
-Kata.Maskify('1');                // should return "1"
-Kata.Maskify('');                 // should return ""
+Kata.Maskify("4556364607935616"); // should return "############5616"
+Kata.Maskify("64607935616");      // should return "#######5616"
+Kata.Maskify("1");                // should return "1"
+Kata.Maskify("");                 // should return ""
 
 // "What was the name of your first pet?"
-Kata.Maskify('Skippy');                                   // should return "##ippy"
-Kata.Maskify('Nananananananananananananananana Batman!'); // should return "####################################man!"
+Kata.Maskify("Skippy");                                   // should return "##ippy"
+Kata.Maskify("Nananananananananananananananana Batman!"); // should return "####################################man!"
 ```
 
 ```java
