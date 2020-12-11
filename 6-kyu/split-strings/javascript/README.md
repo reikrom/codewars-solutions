@@ -64,3 +64,7 @@ The returned array and strings will be free'd.
 solution("abc") // should return {"ab", "c_"}
 solution("abcdef") // should return {"ab", "cd", "ef"}
 ```
+```prolog
+solution("abc",  ["ab", "c_"]).
+solution("abcd", ["ab", "cd"]).
+```
