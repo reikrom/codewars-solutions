@@ -68,3 +68,7 @@ solution("abcdef") // should return {"ab", "cd", "ef"}
 solution("abc",  ["ab", "c_"]).
 solution("abcd", ["ab", "cd"]).
 ```
+```groovy
+solution("abc") == ["ab", "c_"]
+solution("abcdef") == ["ab", "cd", "ef"]
+```
