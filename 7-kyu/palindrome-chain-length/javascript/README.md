@@ -14,6 +14,9 @@ All inputs are guaranteed to have a final palindrome which does not overflow `MA
 ~~~if:python
 All inputs are guaranteed to have a final palindrome smaller than `$ 2^63 $`.
 ~~~
+~~~if:pascal
+All inputs are guaranteed to have a final palindrome which does not overflow `integer`.
+~~~
 
 
 ### Example

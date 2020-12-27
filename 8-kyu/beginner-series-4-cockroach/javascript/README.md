@@ -38,5 +38,8 @@ cockroach_speed(1.08) == 30
 ```factor
 1.08 cockroach-speed 30 =
 ```
+```pascal
+CockroachSpeed(1.08) = 30
+```
 
 Note! The input is a Real number (actual type is language dependent) and is >= 0. The result should be an Integer.
