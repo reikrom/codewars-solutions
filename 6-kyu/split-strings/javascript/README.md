@@ -72,3 +72,7 @@ solution("abcd", ["ab", "cd"]).
 solution("abc") == ["ab", "c_"]
 solution("abcdef") == ["ab", "cd", "ef"]
 ```
+```rust
+solution("abcdef") // should return ["ab", "cd", "ef"]
+solution("abcdefg") // should return ["ab", "cd", "ef", "g_"]
+```

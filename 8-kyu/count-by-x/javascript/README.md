@@ -60,6 +60,6 @@ Kata.countBy(2, 5) == [2,4,6,8,10]
 ```
 
 ```racket
-(count-by 1 10) ; returns '(1 2 3 4 5)
+(count-by 1 10) ; returns '(1 2 3 4 5 6 7 8 9 10)
 (count-by 2 5)  ; returns '(2 4 6 8 10)
 ```
